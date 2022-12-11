@@ -10,4 +10,4 @@ for (int i = 1; i <= count; i++) {
     if (i % 2 == 0) {
         Console.WriteLine($"Четный числа {i}");
     }
-}
+} 
