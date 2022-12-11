@@ -6,5 +6,5 @@ string numberStr = Console.ReadLine ();
 int number = Convert.ToInt32 (numberStr);
 int result = 0;
 
-result = (number % 100) /10;
+result = (number % 100) / 10;
 Console.WriteLine (result);
