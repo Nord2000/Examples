@@ -13,3 +13,4 @@ for (int i = 0; i < Array.Length; i++) {
 }   
 Console.WriteLine();
 Console.WriteLine(count);
+
