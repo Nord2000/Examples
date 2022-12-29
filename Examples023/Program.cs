@@ -48,7 +48,7 @@ void printMatrix(int[,] matrix)
 int findMinSumVectorIndex (int[,] matrix)
 {
     int minSum = 0;
-    int indexOfMinSum = 1;
+    int indexOfMinSum = 0;
 
     for (int j = 0; j < matrix.GetLength(1); j++)
     {
@@ -75,4 +75,4 @@ int columns = readInt("Введите кол-во столбцов ");
 int [,] matrix = initMatrix(rows, columns);
 printMatrix(matrix);
 int indexOfMinSum = findMinSumVectorIndex(matrix);
-Console.WriteLine ($"Программа считает сумму элементов в каждой строке и выдаёт номер строки с наименьшей суммой элементов - {indexOfMinSum} строка");
+Console.WriteLine ($"Программа считает сумму элементов в каждой строке и выдаёт номер строки с наименьшей суммой элементов - {indexOfMinSum + 1} строка");
